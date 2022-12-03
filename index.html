@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="/code.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <!-- styles css -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- font awesome - icons -->
+    <script src="https://kit.fontawesome.com/35258486cf.js" crossorigin="anonymous"></script>
+
+    <script type="module" src="/app.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <a class="arrow-to-up" href="#principal"><img src="/img/arrow-pointing-to-up.png" alt=""></a>
+    <div id="switch" class="switch">
+        <button class="switch-sun"><i class="fa-solid fa-sun"></i></button>
+        <button class="switch-moon"><i class="fa-solid fa-moon"></i></button>
+    </div>
+    <header>
+        <div class="container-navbar">
+            <div class="container-logo">
+                <div class="logo">
+                    <p><span>{</span>Eduardo<span>D</span>ev<span>}</span> </p>
+                    <button id="menu" class="navbar-icon_open">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+            <nav id="nav" class="navbar">
+                <ul id="link" class="navbar-ul">
+                    <li class="navbar-li">
+                        <a href="#principal">Inicio</a>
+                    </li>
+                    <li class="navbar-li">
+                        <a href="#acercademi">Acerca de mí</a>
+                    </li>
+                    <li class="navbar-li">
+                        <a  href="#tecnologias">Tecnologías</a>
+                    </li>
+                    <li class="navbar-li">
+                        <a  href="#habilidadesblandas">Habilidades Blandas</a>
+                    </li>
+                    <li class="navbar-li">
+                        <a  href="#portafolio">Portafolio</a>
+                    </li>
+                    <li class="navbar-li">
+                        <a href="#contactame">Contactame</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- Principal -->
+        <section  id="principal" class="section-principal">
+            <div class="container-principal_img">          
+                <div data-aos="fade-down" class="image-principal">
+                    <img src="/img/image-principal.png" alt="">
+                </div>
+            
+            </div>
+            <div data-aos="fade-down" class="container-principal_text">
+                
+
+                
+                <h2 class="principal-title">
+                    Eduardo Izacupe
+                </h2>
+                <h1 class="principal-subtitle">
+                    FullStack developer
+                </h1>
+                <p class="principal-text">
+                    Amante de la programación con conocimientos de desarrollo, produciendo un trabajo de alta calidad
+                </p>
+                <button class="principal-btn_download">
+                    Descarga CV
+                    <i class="fa-solid fa-file-lines"></i>
+                </button>
+            
+            </div>
+            <div  data-aos="fade-down" class="container-principal_text_screen none">
+                <div>
+
+                
+                <h2 class="principal-title">
+                    Eduardo Izacupe
+                </h2>
+                <h1 class="principal-subtitle">
+                    FullStack developer
+                </h1>
+                <p class="principal-text">
+                    Amante de la programación con conocimientos de desarrollo, produciendo un trabajo de alta calidad
+                </p>
+                <button class="principal-btn_download">
+                    Descarga CV
+                    <i class="fa-solid fa-file-lines"></i>
+                </button>
+            </div>
+            </div>
+        </section>
+        
+        <!-- Acerca de mi -->
+        <section id="acercademi" class="section-sobremi">
+            <h3>Acerca de Mi</h3>
+            <div class="container-sobremi">
+                <div data-aos="fade-right" class="container-sobremi_img">
+                        <div class="sobremi-img">
+                            <img src="/img//image-sobremi.png" alt="">
+                        </div>
+
+                </div>
+                <div data-aos="fade-left" class="container-sobremi_text">
+                    <p>Hola, mi nombre es Eduardo, soy un desarrollador full stack en formación con amplio conocimiento en HTML, CSS, JavaScript, React.js. Con conocimientos básicos node.js, Sequelize y PostgreSQL.</p>
+                    <p>Soy una persona que me gusta estar en constante aprendizaje, puliendo mis habilidades día a día para poder alcanzar un mejor desempeño en mi área de trabajo.</p>
+                    <p>Mi perfil está orientado al logro, la resolución de problemas, la proactividad, la creatividad, el aprendizaje rápido y la organización de mi tiempo. Me adapto rápido y me gusta trabajar en equipo</p>
+                    <p>Actualmente busco incrementar mis habilidades en el área del desarrollo front-end y back-end. Me entusiasma y me encanta la idea de poder aprender nuevas tecnologías.</p>
+                    
+                    <a href="#contactame">
+                        <button class="sobremi-btn_contactame">Contáctame <i class="fa-sharp fa-solid fa-address-card"></i></button>
+
+                    </a>
+                
+                
+                </div>
+            </div>
+        </section>
+
+        <!-- Tecnologias - Habilidades Blandas-->
+        <div class="container-t-h">
+            <!-- Tecnologias -->
+            <section id="tecnologias" class="section-tecnologias">
+                <h3>Tecnologías</h3>
+                <div class="container-tecnologias">
+                    <div data-aos="fade-right" class="tecnologia-logo">
+                        <img class="html_logo" src="img/html-logo.png" alt="">
+                        <P>HTML5</P>
+                    </div>
+                    <div  data-aos="fade-right"class="tecnologia-logo width-58">
+                        <img class="css_logo" src="img/css-logo.png" alt="">
+                        <P>CSS3</P>
+                    </div>
+                    <div data-aos="fade-right" class="tecnologia-logo">
+                        <img class="js_logo" src="img/javascript-logo.png" alt="">
+                        <p>JavaScript</p>
+                    </div>
+                    <div data-aos="fade-right" class="tecnologia-logo width-58">
+                        <img class="reactjs_logo" src="img/react-logo.png" alt="">
+                        <p>React.js</p>
+                    </div>
+                    <div data-aos="fade-right" class="tecnologia-logo width-58">
+                        <img class="nodejs_logo" src="img/node-logo.png" alt="">
+                        <p>node.js</p>
+                    </div>
+                    <div data-aos="fade-right" class="tecnologia-logo">
+                        <img class="sequelize_logo" src="img/sequelize-logo-9A5075DB9F-seeklogo.com.png" alt="">
+                        <p>Sequelize</p>
+                    </div>
+                    <div data-aos="fade-right" class="tecnologia-logo">
+                        <img class="postgresql-logo" src="/img/Postgresql_elephant.svg.png" alt="">
+                        <p>Postgre<span style="color: #316192">SQL</span></p>
+                    </div>
+                </div>
+            </section>
+            <!-- Habilidades Blandas -->
+            <section id="habilidadesblandas"  class="section-habilidades-blandas">
+                <h3>Habilidades blandas</h3>
+                <div class="container-habilidades-blandas">
+                    
+                        <div data-aos="fade-left" class="habilidades-blandas">
+                            <i class="fa-solid fa-person-chalkboard"></i>
+                            <p>Productividad personal</p>
+                        </div>
+                        
+                        <div data-aos="fade-left" class="habilidades-blandas">
+                            <i class="fa-solid fa-cubes-stacked"></i>
+                            <p class="media-ml">Comunicación afectiva</p>
+                        </div>
+      
+                    
+                        <div data-aos="fade-left" class="habilidades-blandas">
+                            <i class="fa-solid fa-user-plus"></i>
+                            <p>Liderazgo efectivo</p>
+                        </div>
+                        <div data-aos="fade-left" class="habilidades-blandas">
+                            <i class="fa-solid fa-users"></i>
+                            <p>Trabajo en equipo</p>
+                        </div>
+
+                    
+
+                    </div>
+                
+            </section>
+
+        </div>
+
+        <!-- Portafolio-->
+        <section id="portafolio" class="section-portafolio">
+            <h3>Portafolio</h3>
+            <div class="container-portafolio">
+                
+                <div data-aos="zoom-in-up" class="slider">    
+                    <h4>Pokedex</h4>
+                    <div class="card">
+                        <div class="card_portafolio_hover">
+                            <p>Proyecto elaborado con React, consumi la API de pokemon (pokeapi). Utilize Redux, React-Router-Dom para manejar los sitios de mi pagina. ademas tiene validaciones</p>
+                            <p>Podras ingresar una vez puesto tu nombre, luego te dara la bienvenida y te mostrara tus pokemones de los cuales podras obtener toda su informacion como stack, habilidad, especie, etc, podras elegirlos por tipo u nombre, ademas de ello tambien agregue una especie de mini juego, en el cual tendras que adivinar que pokemon es el que aparece</p>
+                            <p class="text_extra">accede al minijuego</p>
+                            <div class="card_portafolio_hover_img">
+                                <a class="hover_img">
+                                    <i class="fa-brands fa-html5 hover_icon"></i>
+                                </a>
+                                <a class="hover_img">
+                                    <i class="fa-brands fa-css3-alt hover_icon"></i>
+                                </a>
+                                <a class="hover_img">
+                                    <i class="fa-brands fa-react hover_icon"></i>
+                                </a>
+                                <div class="hover_img">               
+                                    <img src="/img/redux-logo.png" alt="">
+                                </div>
+                                <div class="hover_img">
+                                    <img src="/img/react-router-logo.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-card_crud">
+                            <article class="card_portafolio_crud portafolio__img-pokedex-mobil"><img src="/img/Screenshot_poke_mobil_1.png" alt=""></article>
+                            <article class="card_portafolio_crud portafolio__img-pokedex-desktop"><img src="/img/Screenshot_poke_desktop.png" alt=""></article>
+                            <article class="card_portafolio_crud"><img src="/img/Screenshot_poke_pokedex_1.png" alt=""></article>
+                            <article class="card_portafolio_crud"><img src="/img/Screenshot_poke_pokemon_1.png" alt=""></article>
+                            <article class="card_portafolio_crud"><img src="/img/Screenshot_poke_play_1.png" alt=""></article>
+                            <article class="card_portafolio_crud"><img src="/img/Screenshot_poke_play_guest_1.png" alt=""></article>
+                        </div>
+                    </div>
+                    <div class="card-portafolio-btn">
+                        <a class="portafolio_btn" href="https://github.com/Eduardo-31/Poke-Dex.git" target="_blank">Ver Código</a>
+                        <a class="portafolio_btn" href="https://pokedex-by-eduardo.netlify.app/" target="_blank">Ver Proyecto</a>
+                    </div>
+                </div>
+
+                <div data-aos="zoom-in-up" class="slider">
+                    <h4>E - Commerce</h4>
+                    <div class="card">
+                        <div class="card_portafolio_hover">
+                            <p>Uno de mis proyectos favoritos, diseñado y codeado pensando en el cliente, para que puedan tener una buena experiencia de usuario</p>
+                            <p>E-commerce, tienda virtual codeado en React.js, para poder tener una buena experiencia del proyecto por favor logueate con la cuenta test o create una, recuerda que solo logueandote podras acceder a añadir o eliminar productos al carrito de compras además de registrar compras </p>
+                            <p>sin loguearte solo podras ver todos los productos, filtros y informacion de ello</p>
+                            <p class="text_extra">proyecto totalmente encantador</p>
+                            <div class="card_portafolio_hover_img">
+                                <a class="hover_img">
+                                    <i class="fa-brands fa-html5 hover_icon"></i>
+                                </a>
+                                <a class="hover_img">
+                                    <i class="fa-brands fa-css3-alt hover_icon"></i>
+                                </a>
+                                <a class="hover_img">
+                                    <i class="fa-brands fa-react hover_icon"></i>
+                                </a>
+                                <div class="hover_img">               
+                                    <img src="/img/redux-logo.png" alt="">
+                                </div>
+                                <div class="hover_img">
+                                    <img src="/img/react-router-logo.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-card_crud">
+                            <article class="card_portafolio_crud"><img src="/img/Screenshot-e-commerce-home.png" alt=""></article>
+                            <article class="card_portafolio_crud"><img src="/img/Screenshot-e-commerce-product.png" alt=""></article>
+                            <article class="card_portafolio_crud"><img src="/img/Screenshot-e-commerce-purchases.png" alt=""></article>
+                            <article class="card_portafolio_crud"><img src="/img/Screenshot-e-commerce-cart.png" alt=""></article>
+                            <article class="card_portafolio_crud"><img src="/img/Screenshot-e-commerce-login.png" alt=""></article>
+                        </div>
+                    </div>       
+                    <div class="card-portafolio-btn">
+                        <a class="portafolio_btn" href="https://github.com/Eduardo-31/E-commerce_portafolio.git" target="_blank">Ver Código</a>
+                        <a class="portafolio_btn" href="https://e-commerce-eduardo-ic-dev.netlify.app/" target="_blank">Ver Proyecto</a>
+                    </div>
+                </div>
+
+                <div data-aos="zoom-in-up" class="slider">
+                    <h4>Crud Of Users</h4>
+                    <div class="card">
+                        <div class="card_portafolio_hover">
+                            <p>En este proyecto podrás ver todos tus usuarios, además de ello podrás crear nuevos usuarios, editar y eliminar.</p>
+                            <p>Al darle click en Create New User te aparecerá un formulario para poder llenar los datos, y al editar tendrás acceso a otro formulario en el cual podrás tener una vista del usuario que estás editando y al eliminar tendrás una ventana de confirmación, se consumió una API para ello, todo el codigo fue trabajado con React</p>
+                            <p class="text_extra">mi diseño y mi intefaz me encanto</p>
+                            <div class="card_portafolio_hover_img">
+                                <a class="hover_img">
+                                    <i class="fa-brands fa-html5 hover_icon"></i>
+                                </a>
+                                <a class="hover_img">
+                                    <i class="fa-brands fa-css3-alt hover_icon"></i>
+                                </a>
+                                <a class="hover_img">
+                                    <i class="fa-brands fa-react hover_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slider-card_crud">
+                            <article class="card_portafolio_crud"><img src="/img/Screenshot_crud_1.png" alt=""></article>
+                            <article class="card_portafolio_crud"><img src="/img/Screenshot_crud__1.png" alt=""></article>
+                            <article class="card_portafolio_crud"><img src="/img/Screenshot_crud_form_1.png" alt=""></article>
+                            <article class="card_portafolio_crud"><img src="/img/Screenshot_crud_form_edit_1.png" alt=""></article>
+                            <article class="card_portafolio_crud"><img src="/img/Screenshot_crud_remove_1.png" alt=""></article>
+                        </div>
+                    </div>       
+                    <div class="card-portafolio-btn">
+                        <a class="portafolio_btn" href="https://github.com/Eduardo-31/Crud-Users.git" target="_blank" >Ver Código</a>
+                        <a class="portafolio_btn" href="https://crud-users-react-by-eduardo-developer.netlify.app/" target="_blank">Ver Proyecto</a>
+                    </div>
+                </div>
+
+
+                <div data-aos="zoom-in-up" class="slider"> 
+                    <h4>Weather App</h4>
+                    <div class="card">
+                        <div class="card_portafolio_hover">
+                            <p>En este proyecto utilize el long y la lat, consumi una API para poder obtener la informacion</p>
+                            <p>Al abrir el proyecto primeramente debes de permitir el acceso a tu ubicacion, una vez echo eso, podras tener informacion del clima segun tu ubicacion, ademas podras econtrar un buscador, en el cual podras encontrar los climas en tiempo real de otros paises o estados</p>
+                            <p class="text_extra">ubicacion en tiempo real margen de error 10k</p>
+                            <div class="card_portafolio_hover_img">
+                                <a class="hover_img">
+                                    <i class="fa-brands fa-html5 hover_icon"></i>
+                                </a>
+                                <a class="hover_img">
+                                    <i class="fa-brands fa-css3-alt hover_icon"></i>
+                                </a>
+                                <a class="hover_img">
+                                    <i class="fa-brands fa-react hover_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slider-card_crud">
+                            <article class="card_portafolio_crud"><img src="/img/Screenshot_weather_1.png" alt=""></article>
+                            <article class="card_portafolio_crud"><img src="/img/Screenshot_weather14_1.png" alt=""></article>
+                            <article class="card_portafolio_crud"><img src="/img/Screenshot_weather_1.png" alt=""></article>
+                            <article class="card_portafolio_crud"><img src="/img/Screenshot_weather14_1.png" alt=""></article>
+                            <article class="card_portafolio_crud"><img src="/img/Screenshot_weather_1.png" alt=""></article>
+                        </div>
+                    </div> 
+                    <div class="card-portafolio-btn">
+                        <a class="portafolio_btn" href="https://github.com/Eduardo-31/Weather-app.git" target="_blank">Ver Código</a>
+                        <a class="portafolio_btn" href="https://app-weather-geolocation-by-eduardodev.netlify.app/" target="_blank">Ver Proyecto</a>
+                    </div>
+                </div>
+                
+                <div data-aos="zoom-in-up" class="slider">   
+                    <h4>RickAndMorty</h4>     
+                    <div class="card">
+                        <div class="card_portafolio_hover">
+                            <p>Proyecto elaborado consumiendo la API de RickAndMorty.</p>
+                            <p>Aqui podras encontrar toda la informacion de cada personaje de esta super serie, al ingresar la informacion que te muestra es Random puedes poder f5 y te traera otra dimension con sus personajes. Tambien puedes buscar por dimensiones que van de 1 al 126</p>
+                            <p class="text_extra">buscar del 1 - 126</p>
+                            <div class="card_portafolio_hover_img">
+                                <a class="hover_img">
+                                    <i class="fa-brands fa-html5 hover_icon"></i>
+                                </a>
+                                <a class="hover_img">
+                                    <i class="fa-brands fa-css3-alt hover_icon"></i>
+                                </a>
+                                <a class="hover_img">
+                                    <i class="fa-brands fa-react hover_icon"></i>
+                                </a>
+                            </div>
+                        </div>           
+                        <div class="slider-card_crud">
+                            <article class="card_portafolio_crud"><img src="/img/Screenshot_rickandmorty_1.png" alt=""></article>
+                            <article class="card_portafolio_crud"><img src="/img/Screenshot_rickandmortyy_1.png" alt=""></article>
+                            <article class="card_portafolio_crud"><img src="/img/Screenshot_rickandmorty_1.png" alt=""></article>
+                            <article class="card_portafolio_crud"><img src="/img/Screenshot_rickandmortyy_1.png" alt=""></article>
+                            <article class="card_portafolio_crud"><img src="/img/Screenshot_rickandmorty_1.png" alt=""></article>
+                        </div>
+                    </div>              
+                    <div class="card-portafolio-btn">
+                        <a class="portafolio_btn" href="https://github.com/Eduardo-31/Rick-and-Morty-App.git" target="_blank">Ver Código</a>
+                        <a class="portafolio_btn" href="https://app-rickandmorty-by-eduardo-developer.netlify.app/" target="_blank">Ver Proyecto</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </section>
+        
+        
+        <!-- Contactame -->
+        <section id="contactame" class="section-contactame">
+            <h3>Contactame</h3>
+            <div class="container-contactame">
+                <div class="contactame_card">
+                    <article data-aos="flip-right" class="card-contacto">
+                        <div class="contacto-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <p class="contacto-title">Email</p>
+                        <p class="contacto-subtitle">eduardoizacupedev@gmail.com</p>
+                        <!--<a class="contacto-link" href="">
+                            <p>Enviar mensaje</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>-->
+                    </article>
+                    <article data-aos="flip-right" class="card-contacto">
+                        <div class="contacto-icon">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <p class="contacto-title">Whatsapp</p>
+                        <p class="contacto-subtitle">944800327</p>
+                    </article>
+                    <article data-aos="flip-right" class="card-contacto">
+                        <div class="contacto-icon">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                        <p class="contacto-title">Linkedin</p>
+                        <p class="contacto-subtitle">Eduardo Izacupe Coello</p>                      
+                    </article>
+                </div>
+                <div data-aos="fade-up" class="contactame-form" >
+                    <form >
+                        <div style="position: relative;">
+                            <label class="label-form"  for="">Name</label>
+                            <input name="name" class="input-form name" type="text" placeholder="Inserta tu nombre">          
+                        </div>
+                      
+                        <div style="position: relative;">                  
+                            <label class="label-form" for="">Email</label>          
+                            <input name="email" class="input-form email" type="text" placeholder="Inserta tu email">
+                        </div>
+                        <div style="position: relative;">            
+                            <label class="label-form" for="">Asunto</label> 
+                            <textarea name="asunto" class="textarea-form asunto" name="" id="" cols="30" rows="10" placeholder="Inserta tu asunto"></textarea>
+
+                        </div>
+                        <div class="btn-form">
+                            <button class="send-btn">Enviar mensaje</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <h6 class="footer-title">Eduardo</h6>
+        <div class="footer-link">
+            <a href="#principal">Inicio</a>
+            <a href="#acercademi">Acerca de mi</a>
+            <a href="#tecnologias">Tecnologias</a>
+            <a href="#habilidadesblandas">Habilidades Blandas</a>
+            <a href="#portafolio">Portafolio</a>
+            <a href="#contactame">contactame</a>
+        </div>
+        <div class="footer-link-icon">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/Eduardo-31/" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <p>Todos los dereechos reservados / 2022</p>
+    </footer>
+    <!-- email js Link -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- Sweet Alert JS Link -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('NWTx1-whJfLCgNTtu');
+        })();
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 900,
+            once: true
+        });
+      </script>
+</body>
+</html> 
