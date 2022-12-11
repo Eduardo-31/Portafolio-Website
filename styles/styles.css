@@ -32,6 +32,7 @@ body {
 }
 
 
+
 .container-portada {
     background-color: aqua;
     width: 100%;
@@ -479,7 +480,9 @@ body.dark {
 }
 
 /* ============= Tecnologias =========== */
-
+main {
+    overflow: hidden;
+}
 .section-tecnologias {
     
     padding: 50px 0;
@@ -488,7 +491,6 @@ body.dark {
 }
 
 .container-tecnologias {
-    
     width: 95%;
     display: grid;
     margin: 0 auto;
@@ -550,7 +552,7 @@ body.dark {
 
 .section-habilidades-blandas {
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
     padding: 50px 0;
 }
 
@@ -558,6 +560,7 @@ body.dark {
     padding-top: 15px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 35px;
 }
 
@@ -565,9 +568,15 @@ body.dark {
 .habilidades-blandas {
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 35px;
+    min-width: 310px;
+    justify-content: flex-start;
 }
+
+.gap-unique {
+    gap: 57px;
+}
+
 
 .habilidades-blandas p {
     font-size: 1rem;
