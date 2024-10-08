@@ -367,20 +367,23 @@ body {
 }
 .switch-sun {
     position: absolute;
-    opacity: 0;
+    opacity: 1;
     color: white;
     left: 0;
 }
-.switch-active .switch-sun {
-    opacity: 1;
-    transition: opacity .2s ease;
+.switch-moon {
+    opacity: 0;
 }
-.switch-active .switch-moon {
+.switch-active .switch-sun {
     opacity: 0;
     transition: opacity .2s ease;
 }
+.switch-active .switch-moon {
+    opacity: 1;
+    transition: opacity .2s ease;
+}
 
-body.dark {
+.dark {
     background-color: #130f1a;
     transition: .15s ease;
 }
@@ -425,7 +428,10 @@ body.dark {
     background: none;
     transition: .3s ease;
 }
+
+
 /* _________ tecnologias _________ */
+
 .dark .tecnologia-logo p {
     color: rgb(189, 184, 184);
     color: #B0A6BA;
@@ -467,16 +473,19 @@ body.dark {
 .dark .contacto-subtitle {
     color: rgb(185, 183, 183);
 }
-/* ___form___ */
+
+/* _________form________ */
 .dark .label-form {
     background-color: #130f1a;
 }
 
 .dark .input-form {
     background-color: #130f1a;
+    color: rgb(185, 183, 183);
 }
 .dark .textarea-form {
-    background-color: #130f1a;   
+    background-color: #130f1a;
+    color: rgb(185, 183, 183);
 }
 
 /* ============= Tecnologias =========== */
@@ -953,7 +962,7 @@ margin: 2px 0;
 
 footer {
     background: var(--color-text);
-    padding: 58px 0px;
+    padding: 60px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1295,7 +1304,7 @@ footer p {
     }
 
    footer {
-        padding: 77px 0px;
+        padding: 85px 0px;
    }
 
     .footer-title {

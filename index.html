@@ -19,7 +19,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
-<body>
+<body class="dark">
     <a class="arrow-to-up" href="#principal"><img src="/img/arrow-pointing-to-up.png" alt=""></a>
     <div id="switch" class="switch">
         <button class="switch-sun"><i class="fa-solid fa-sun"></i></button>
@@ -88,23 +88,21 @@
             
             </div>
             <div  data-aos="fade-right" class="container-principal_text_screen none">
-                <div>
-
-                
-                <h2 class="principal-title">
-                    Eduardo Izacupe
-                </h2>
-                <h1 class="principal-subtitle">
-                    FullStack developer
-                </h1>
-                <p class="principal-text">
-                    Amante de la programación con conocimientos de desarrollo, produciendo un trabajo de alta calidad
-                </p>
-                <button class="principal-btn_download">
-                    Descarga CV
-                    <i class="fa-solid fa-file-lines"></i>
-                </button>
-            </div>
+                <div>          
+                    <h2 class="principal-title">
+                        Eduardo Izacupe
+                    </h2>
+                    <h1 class="principal-subtitle">
+                        FullStack developer
+                    </h1>
+                    <p class="principal-text">
+                        Amante de la programación con conocimientos de desarrollo, produciendo un trabajo de alta calidad
+                    </p>
+                    <button class="principal-btn_download">
+                        Descarga CV
+                        <i class="fa-solid fa-file-lines"></i>
+                    </button>
+                </div>
             </div>
         </section>
         <main>
@@ -116,20 +114,15 @@
                         <div class="sobremi-img">
                             <img src="/img//image-sobremi.png" alt="">
                         </div>
-
                 </div>
                 <div data-aos="fade-left" class="container-sobremi_text">
                     <p>Hola, mi nombre es Eduardo, soy un desarrollador full stack en formación con amplio conocimiento en HTML, CSS, JavaScript, React.js, Node.js, Sequelize, PostgreSQL y con conocimientos básicos en SQL.</p>
                     <p>Soy una persona que me gusta estar en constante aprendizaje, puliendo mis habilidades día a día para poder alcanzar un mejor desempeño en mi área de trabajo.</p>
                     <p>Mi perfil está orientado al logro, la resolución de problemas, la proactividad, la creatividad, el aprendizaje rápido y la organización de mi tiempo. Me adapto rápido y me gusta trabajar en equipo</p>
-                    <p>Actualmente busco incrementar mis habilidades en el área del desarrollo front-end y back-end. Me entusiasma y me encanta la idea de poder aprender nuevas tecnologías.</p>
-                    
+                    <p>Actualmente busco incrementar mis habilidades en el área del desarrollo front-end y back-end. Me entusiasma y me encanta la idea de poder aprender nuevas tecnologías.</p>                   
                     <a href="#contactame">
                         <button class="sobremi-btn_contactame">Contáctame <i class="fa-sharp fa-solid fa-address-card"></i></button>
-
-                    </a>
-                
-                
+                    </a>     
                 </div>
             </div>
         </section>
@@ -317,7 +310,7 @@
                     </div>       
                     <div class="card-portafolio-btn">
                         <a class="portafolio_btn" href="https://github.com/Eduardo-31/Crud-Users.git" target="_blank" >Ver Código</a>
-                        <a class="portafolio_btn" href="https://weather-app-by-eduardoic.netlify.app/" target="_blank">Ver Proyecto</a>
+                        <a class="portafolio_btn" href="https://crud-of-users-by-eduardoic.netlify.app/" target="_blank">Ver Proyecto</a>
                     </div>
                 </div>
 
@@ -351,7 +344,7 @@
                     </div> 
                     <div class="card-portafolio-btn">
                         <a class="portafolio_btn" href="https://github.com/Eduardo-31/Weather-app.git" target="_blank">Ver Código</a>
-                        <a class="portafolio_btn" href="https://app-weather-geolocation-by-eduardodev.netlify.app/" target="_blank">Ver Proyecto</a>
+                        <a class="portafolio_btn" href="https://weather-app-by-eduardoic.netlify.app/" target="_blank">Ver Proyecto</a>
                     </div>
                 </div>
                 
@@ -403,7 +396,7 @@
                             <i class="fa-solid fa-envelope"></i>
                         </div>
                         <p class="contacto-title">Email</p>
-                        <p class="contacto-subtitle">eduardoizacupedev@gmail.com</p>
+                        <p class="contacto-subtitle">eduardoitdev@gmail.com</p>
                         <!--<a class="contacto-link" href="">
                             <p>Enviar mensaje</p>
                             <i class="fa-solid fa-arrow-right"></i>
@@ -414,31 +407,31 @@
                             <i class="fa-brands fa-whatsapp"></i>
                         </div>
                         <p class="contacto-title">Whatsapp</p>
-                        <p class="contacto-subtitle">944800327</p>
+                        <p class="contacto-subtitle">+51  966576345</p>
                     </article>
-                    <article data-aos="flip-right" class="card-contacto">
+                    <!-- EN PROCESO <article data-aos="flip-right" class="card-contacto">
                         <div class="contacto-icon">
                             <i class="fa-brands fa-linkedin"></i>
                         </div>
                         <p class="contacto-title">Linkedin</p>
                         <p class="contacto-subtitle">Eduardo Izacupe Coello</p>                      
                     </article>
+                    -->
                 </div>
                 <div data-aos="fade-up" class="contactame-form" >
-                    <form >
+                    <form id="form">
                         <div style="position: relative;">
-                            <label class="label-form"  for="">Name</label>
-                            <input name="name" class="input-form name" type="text" placeholder="Inserta tu nombre">          
+                            <label class="label-form"  for="">Nombre</label>
+                            <input name="name" class="input-form name" type="text" minlength="2" placeholder="Inserta tu nombre">          
                         </div>
                       
                         <div style="position: relative;">                  
                             <label class="label-form" for="">Email</label>          
-                            <input name="email" class="input-form email" type="text" placeholder="Inserta tu email">
+                            <input name="email" class="input-form email" type="email" placeholder="Inserta tu email">
                         </div>
                         <div style="position: relative;">            
                             <label class="label-form" for="">Asunto</label> 
-                            <textarea name="asunto" class="textarea-form asunto" name="" id="" cols="30" rows="10" placeholder="Inserta tu asunto"></textarea>
-
+                            <textarea name="asunto" class="textarea-form asunto" id="" cols="30" rows="10" minlength="5"  placeholder="Inserta tu asunto"></textarea>
                         </div>
                         <div class="btn-form">
                             <button class="send-btn">Enviar mensaje</button>
@@ -463,7 +456,7 @@
             <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
             <a href="https://github.com/Eduardo-31/" target="_blank"><i class="fa-brands fa-github"></i></a>
         </div>
-        <p>Todos los dereechos reservados / 2022</p>
+        <p>Todos los dereechos reservados</p>
     </footer>
     <!-- email js Link -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
